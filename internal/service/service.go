@@ -1,4 +1,5 @@
 package service
+<<<<<<< HEAD
 
 import (
 	"errors"
@@ -37,3 +38,5 @@ func AutoDetect(fileData []byte) (string, error) {
 		return result, nil
 	}
 }
+=======
+>>>>>>> 451cb3d (Initial commit)
