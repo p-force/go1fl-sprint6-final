@@ -27,7 +27,7 @@ func CreateServer(logger *log.Logger) *Serv {
 	r.Post("/upload", handlers.UploadHandle)
 
 	serv := &http.Server{
-		Addr:         ":8000",
+		Addr:         ":8080",
 		Handler:      r,
 		ErrorLog:     logger,
 		ReadTimeout:  5 * time.Second,
