@@ -1,6 +1,5 @@
 package main
 
-<<<<<<< HEAD
 import (
 	"log"
 	"os"
@@ -17,8 +16,4 @@ func main() {
 	if err != nil {
 		logger.Fatal(err)
 	}
-=======
-func main() {
-
->>>>>>> 451cb3d (Initial commit)
 }

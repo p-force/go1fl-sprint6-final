@@ -1,5 +1,4 @@
 package server
-<<<<<<< HEAD
 
 import (
 	"log"
@@ -41,5 +40,3 @@ func CreateServer(logger *log.Logger) *Serv {
 		serv: serv,
 	}
 }
-=======
->>>>>>> 451cb3d (Initial commit)
